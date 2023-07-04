@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Content</title>
+</head>
+<body>
+  <h1 <b>Rich us on </b></h1>
+
+  <div id="content"></div>
+
+  <script>
+    // JavaScript code to generate dynamic content
+    var contentDiv = document.getElementById('content');
+
+    // Generate content
+    var firstName = "SARAH";
+    var lastName = "SARAH";
+    var email = "SSARAHe@example.com";
+
+    var generatedContent = "<p>First Name: " + firstName + "</p>" +
+                           "<p>Last Name: " + lastName + "</p>" +
+                           "<p>Email: " + email + "</p>";
+
+    // Set the generated content
+    contentDiv.innerHTML = generatedContent;
+  </script>
+</body>
+</html>
